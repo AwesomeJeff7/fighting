@@ -75,7 +75,7 @@ canvas.width = 800;
 canvas.height = 400;
 
 // Create players
-const player1 = new Fighter(100, 200, '#54E44C', true);
+const player1 = new Fighter(100, 200, '#FF00FF', true);
 const player2 = new Fighter(650, 200, '#e74c3c', false);
 
 // Game controls
