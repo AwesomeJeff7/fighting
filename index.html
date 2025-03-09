@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Fighting Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        
+        .controls {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .player-controls {
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .download-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        
+        .download-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Java Fighting Game</h1>
+        
+        <h2>About the Game</h2>
+        <p>
+            A fast-paced 2D fighting game created in Java. Challenge your friend in an intense one-on-one battle!
+            Features include health bars, blocking mechanics, and real-time combat.
+        </p>
+
+        <h2>Game Controls</h2>
+        <div class="controls">
+            <div class="player-controls">
+                <h3>Player 1 Controls:</h3>
+                <ul>
+                    <li>A - Move Left</li>
+                    <li>D - Move Right</li>
+                    <li>F - Attack</li>
+                    <li>G - Block (hold)</li>
+                </ul>
+            </div>
+            
+            <div class="player-controls">
+                <h3>Player 2 Controls:</h3>
+                <ul>
+                    <li>Left Arrow - Move Left</li>
+                    <li>Right Arrow - Move Right</li>
+                    <li>K - Attack</li>
+                    <li>L - Block (hold)</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>How to Run the Game</h2>
+        <ol>
+            <li>Make sure you have Java installed on your computer</li>
+            <li>Download all game files (Fighter.java, GamePanel.java, and FightingGame.java)</li>
+            <li>Open terminal/command prompt in the game directory</li>
+            <li>Compile the game: <code>javac *.java</code></li>
+            <li>Run the game: <code>java FightingGame</code></li>
+        </ol>
+
+        <h2>Game Features</h2>
+        <ul>
+            <li>Two-player combat system</li>
+            <li>Real-time health tracking</li>
+            <li>Attack and block mechanics</li>
+            <li>Collision detection</li>
+            <li>Victory conditions</li>
+        </ul>
+
+        <p>
+            <strong>Last Updated:</strong> 2025-03-09
+        </p>
+
+        <a href="#" class="download-button">Download Game Files</a>
+    </div>
+</body>
+</html>
